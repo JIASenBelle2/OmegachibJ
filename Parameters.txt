@@ -1,5 +1,5 @@
-For $N^{\rm obs}=0$, the dependence of profile likelihoods is parameterized using the proportionality function $f(x)=ax$.
-For $N^{\rm obs}=1$ or higher, the dependence is parameterized by the function $f(x)=2(p_2x + p_3 - p_1 + p_1 {\rm ln} \frac{p_1}{p_2x + p_3}) P_4(x)$, where $P_4=1+q_1 x+q_2 x^2+q_3 x^3+q_4 x^4$. 
+For $N^{\rm obs}=0$ at poorly-populated energy points, the dependence of profile likelihoods is parameterized using the proportionality function $f(x)=ax$.
+For $N^{\rm obs}=1$ or higher at poorly-populated energy points and all well-populated energy points, the dependence is parameterized by the function $f(x)=2(p_2x + p_3 - p_1 + p_1 {\rm ln} \frac{p_1}{p_2x + p_3}) P_4(x)$, where $P_4=1+q_1 x+q_2 x^2+q_3 x^3+q_4 x^4$. 
 The parameters $a$, $p_i$, and $q_i$ are determined from fits. Results of these fits for all cross sections are shown below.
 
 e+e- --> chib0 omega							
@@ -154,6 +154,7 @@ Energy (MeV)	q1/a	q2	q3	q4	p2	p3	p1
 11014.8	1.3	-	-	-	-	-	-
 11018.5	1.5	-	-	-	-	-	-
 11020.8	2.1	-	-	-	-	-	-
+
 
 
 
